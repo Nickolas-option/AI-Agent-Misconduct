@@ -1,5 +1,3 @@
-# AI-agent-misconduct-demo
- 
 # AI Ethical Behavior Evaluation
 
 This project implements a framework for evaluating AI behavior in ethical scenarios, specifically focusing on how AI agents handle situations involving potential blackmail or coercion.
