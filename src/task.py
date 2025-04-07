@@ -1,6 +1,6 @@
 from inspect_ai import Task, task
 from inspect_ai.scorer import model_graded_qa
-from .agent import biolab_agent
+from .solvers.agent import biolab_agent
 
 @task
 def biolab_blackmail():
