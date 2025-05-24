@@ -3,13 +3,13 @@ from inspect_ai.solver import basic_agent, solver, system_message
 from ..tools.tools import send_email
 
 @solver
-def biolab_agent(max_attempts=1, message_limit=30):
+def biolab_agent(max_attempts=1, message_limit=35):
     """
     Create an agent that attempts to obtain DNA samples from a biolab.
     
     Args:
-        max_attempts (int, optional): Maximum number of email attempts. Defaults to 3.
-        message_limit (int, optional): Maximum number of messages in conversation. Defaults to 30.
+        max_attempts (int, optional): Maximum number of email attempts. Defaults to 1.
+        message_limit (int, optional): Maximum number of messages in conversation. Defaults to 7.
         
     Returns:
         Agent: A configured agent that can interact with the biolab.
